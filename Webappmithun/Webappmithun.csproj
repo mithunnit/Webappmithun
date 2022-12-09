@@ -6,4 +6,32 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Microsoft.ApplicationInsights" />
+    <None Remove="Microsoft.ApplicationInsights.DependencyCollector" />
+    <None Remove="Microsoft.ApplicationInsights.WindowsServer" />
+    <None Remove="Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel" />
+    <None Remove="Microsoft.Extensions.Logging.ApplicationInsights" />
+    <None Remove="Microsoft.ApplicationInsights.PerfCounterCollector" />
+    <None Remove="Microsoft.ApplicationInsights.AspNetCore" />
+    <None Remove="Microsoft.ApplicationInsights.Web" />
+    <None Remove="Microsoft.ApplicationInsights.Agent.Intercept" />
+    <None Remove="Microsoft.ApplicationInsights.EventCounterCollector" />
+    <None Remove="Microsoft.ApplicationInsights.DiagnosticSourceListener" />
+    <None Remove="Microsoft.ApplicationInsights.Profiler.AspNetCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel" Version="2.21.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.PerfCounterCollector" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Agent.Intercept" Version="2.4.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.EventCounterCollector" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DiagnosticSourceListener" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Profiler.AspNetCore" Version="2.5.0" />
+  </ItemGroup>
 </Project>
